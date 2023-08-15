@@ -1,0 +1,98 @@
+/* dancing-script-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/dancing-script-v24-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dancing-script-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/fonts/dancing-script-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* quicksand-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/quicksand-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* quicksand-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../public/fonts/quicksand-v30-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* quicksand-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../public/fonts/quicksand-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  margin: 0;
+  font-family: "Quicksand", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.container {
+  max-width: 1320px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+}

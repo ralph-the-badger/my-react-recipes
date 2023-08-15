@@ -1,0 +1,32 @@
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.searchForm p,
+.searchForm input,
+.searchForm button {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  padding: 10px;
+  margin: 50px 0;
+}
+
+.searchForm input {
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+@media only screen and (max-width: 990px) {
+  .searchForm {
+    flex-direction: column;
+  }
+  .searchForm p,
+  .searchForm input,
+  .searchForm button {
+    margin: 10px 0;
+  }
+}

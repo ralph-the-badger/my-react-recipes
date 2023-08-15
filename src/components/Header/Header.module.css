@@ -1,0 +1,20 @@
+.header {
+  margin: 0;
+  background-color: #a91b0d;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 6.75rem;
+  line-height: 10rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+}
