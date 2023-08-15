@@ -1,11 +1,16 @@
+import { useNavigate } from "react-router-dom";
+
 import Button from "../Button/Button";
 
 import styles from "./CardContent.module.css";
 
 function CardContent({ recipe }) {
+  const navigate = useNavigate();
+
   function onClickHandler(id) {
-    console.log(id);
+    navigate(`/rezepte/${id}`);
   }
+
   return (
     <>
       <img src={recipe.image} alt={recipe.name} className={styles.cardImage} />

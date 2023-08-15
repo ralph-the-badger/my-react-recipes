@@ -4,7 +4,66 @@
       "id": 1,
       "name": "Rotes Pesto",
       "image": "../images/pesto-1776673_1920.jpg",
-      "description": [
+      "highlight": true,
+      "duration": "20 Minuten",
+      "description": "Die klassische Version von rotem Pesto mit getrockneten Tomaten, Pinienkernen und Parmesan können Sie mit wenigen Zutaten verfeinern und Ihrem persönlichen Geschmack anpassen.",
+      "ingredients": [
+        {
+          "subgroup": [
+            {
+              "title": "Pesto",
+              "list": [
+                {
+                  "name": "getrocknete Tomaten (in Öl eingelegt)",
+                  "amount": 40,
+                  "unit": "g"
+                },
+                { "name": "Knoblauchzehe", "amount": 0.25, "unit": null },
+                { "name": "Pinienkerne", "amount": 15, "unit": "g" },
+                {
+                  "name": "Olivenöl (bzw. Öl der eingelegten Tomaten)",
+                  "amount": 20,
+                  "unit": "ml"
+                },
+                {
+                  "name": "Parmesan oder Grana Padano",
+                  "amount": 15,
+                  "unit": "g"
+                },
+                { "name": "Salz", "amount": null, "unit": null },
+                { "name": "Pfeffer", "amount": null, "unit": null },
+                { "name": "Basilikum", "amount": null, "unit": null }
+              ]
+            },
+            {
+              "title": "Pesto 2",
+              "list": [
+                {
+                  "name": "2 getrocknete Tomaten (in Öl eingelegt)",
+                  "amount": 40,
+                  "unit": "g"
+                },
+                { "name": "2 Knoblauchzehe", "amount": 0.25, "unit": null },
+                { "name": "2 Pinienkerne", "amount": 15, "unit": "g" },
+                {
+                  "name": "2 Olivenöl (bzw. Öl der eingelegten Tomaten)",
+                  "amount": 20,
+                  "unit": "ml"
+                },
+                {
+                  "name": "2 Parmesan oder Grana Padano",
+                  "amount": 15,
+                  "unit": "g"
+                },
+                { "name": "2 Salz", "amount": null, "unit": null },
+                { "name": "2 Pfeffer", "amount": null, "unit": null },
+                { "name": "2 Basilikum", "amount": null, "unit": null }
+              ]
+            }
+          ]
+        }
+      ],
+      "preparation": [
         {
           "step": 1,
           "todo": "Beschreibung Schritt 1"
@@ -23,7 +82,8 @@
       "id": 2,
       "name": "Soljanka",
       "image": "../images/soljanka-2072551_1920.jpg",
-      "description": [
+      "highlight": true,
+      "preparation": [
         {
           "step": 1,
           "todo": "Beschreibung Schritt 1"
@@ -42,7 +102,8 @@
       "id": 3,
       "name": "Schnitzel Wiener Art",
       "image": "../images/schnitzel-1732024_1280.jpg",
-      "description": [
+      "highlight": false,
+      "preparation": [
         {
           "step": 1,
           "todo": "Beschreibung Schritt 1"
@@ -61,7 +122,8 @@
       "id": 4,
       "name": "Chicken Curry",
       "image": "../images/chicken-6183149_1920.jpg",
-      "description": [
+      "highlight": true,
+      "preparation": [
         {
           "step": 1,
           "todo": "Beschreibung Schritt 1"
