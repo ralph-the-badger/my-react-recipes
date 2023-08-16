@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import { useParams } from "react-router-dom";
 
 import Header from "../components/Header/Header";
@@ -5,10 +7,13 @@ import Content from "../components/Content/Content";
 import RecipeContent from "../components/Content/RecipeContent";
 import RecipeDescription from "../components/Content/RecipeDescription";
 import RecipePreparationTime from "../components/Content/RecipePreparationTime";
-import RecipeIngredients from "../components/Content/RecipeIngredients";
 import RecipeIngredientsCalculator from "../components/Content/RecipeIngredientsCalculator";
+import RecipeIngredients from "../components/Content/RecipeIngredients";
+import RecipePreparation from "../components/Content/RecipePreparation";
 
 function Recipe({ recipes, isLoading, error }) {
+  const [personsAmount, setPersonsAmount] = useState(1);
+
   const { id } = useParams();
 
   let recipe;
@@ -30,10 +35,20 @@ function Recipe({ recipes, isLoading, error }) {
       {!isLoading && !error && (
         <Content>
           <RecipeContent>
-            <RecipeDescription>{recipe.description}</RecipeDescription>
-            <RecipePreparationTime>{recipe.duration}</RecipePreparationTime>
-            <RecipeIngredientsCalculator />
-            <RecipeIngredients ingredients={recipe.ingredients} />
+            <RecipeDescription
+              description={recipe.description}
+              image={recipe.image}
+              title={recipe.name}
+            />
+            <RecipePreparationTime duration={recipe.duration} />
+            <RecipeIngredientsCalculator
+              onHandlePersonsAmount={setPersonsAmount}
+            />
+            <RecipeIngredients
+              ingredients={recipe.ingredients}
+              personsAmount={personsAmount}
+            />
+            <RecipePreparation preparation={recipe.preparation} />
           </RecipeContent>
         </Content>
       )}
