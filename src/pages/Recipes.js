@@ -27,15 +27,15 @@ function Recipes({ recipes, isLoading, error }) {
       <Header />
       {isLoading && <p>Loading ...</p>}
       {error && <p>Die Rezepte können leider nicht geladen werden. Sorry!</p>}
-      {shownRecipes.length === 0 && (
-        <p style={{ textAlign: "center" }}>
-          Sorry, die Rezepte konnten leider nicht gefunden werden.
-        </p>
-      )}
       {!isLoading && !error && (
         <Content>
           <RecipeContent>
             <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+            {shownRecipes.length === 0 && (
+              <p style={{ textAlign: "center" }}>
+                Sorry, das Rezepte konnte leider nicht gefunden werden.
+              </p>
+            )}
           </RecipeContent>
           <RecipeOverview recipes={shownRecipes} />
         </Content>

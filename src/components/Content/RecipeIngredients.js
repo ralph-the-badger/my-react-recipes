@@ -14,17 +14,19 @@ function RecipeIngredients({ ingredients, personsAmount }) {
               className={styles.ingredientsSubgroup}
               key={Math.random(1000000000)}
             >
-              <h3>{subgroup.title}</h3>
+              {subgroup.title !== null && <h3>{subgroup.title}</h3>}
               <ul>
                 {subgroup.list.map((list) => (
                   <li key={Math.random(1000000000)}>
                     <p>
                       <strong>
-                        {list.amount === null
-                          ? ""
-                          : list.amount * personsAmount}
-                        {list.unit === null ? "" : list.unit}
-                        {list.amount === null ? "" : ": "}
+                        {list.amount !== null &&
+                          list.unit !== null &&
+                          `${list.amount * personsAmount}${list.unit}: `}
+                        {list.amount === null && list.unit === null && ``}
+                        {list.amount !== null &&
+                          list.unit === null &&
+                          `${list.amount * personsAmount} `}
                       </strong>{" "}
                       {list.name}
                     </p>

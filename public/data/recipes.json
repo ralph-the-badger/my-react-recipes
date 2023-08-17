@@ -83,18 +83,125 @@
       "name": "Soljanka",
       "image": "../images/soljanka-2072551_1920.jpg",
       "highlight": true,
+      "duration": "3 Stunden",
+      "description": "Dieser Klassiker ist ein fleischiger Eintopf aus der slawischen Küche. Er schmeckt fantastisch! Die Qualität des Ergebnisses hängt wie bei fast jedem Gericht von den Zutaten ab: Vor allem die Qualität der unterschiedlichen Fleischsorten wirkt sich bedeutend auf den Geschmack des Gerichts aus.\n Die Säure des Gerichtskommt von den eingefügten Salzgurken. Wenn man etwas vom Original abweichen möchte, dann kann man auch Gewürzguken verwenden.\n Zum Schluss muss das Gericht mit Zitronensaft, Gurkenwasser oder Essig bzw. mit Zucker oder Tomatenmark geschmacklich abgestimmt werden.\n Angerichtet sollte das Gericht am besten mit einem Kleck saure Sahne und mit einem Stück Brot.",
+      "ingredients": [
+        {
+          "subgroup": [
+            {
+              "title": "Fleisch",
+              "list": [
+                {
+                  "name": "Rindfleisch",
+                  "amount": 50,
+                  "unit": "g"
+                },
+                {
+                  "name": "Schweine-Minutensteaks",
+                  "amount": 50,
+                  "unit": "g"
+                },
+                {
+                  "name": "Cabanossi",
+                  "amount": 50,
+                  "unit": "g"
+                }
+              ]
+            },
+            {
+              "title": "Gemüse",
+              "list": [
+                {
+                  "name": "Zwiebel",
+                  "amount": 0.5,
+                  "unit": null
+                },
+                {
+                  "name": "Knoblauch",
+                  "amount": 0.5,
+                  "unit": null
+                },
+                {
+                  "name": "rote Paprika",
+                  "amount": 1,
+                  "unit": null
+                },
+                {
+                  "name": "eingelege gegrillte Paprika",
+                  "amount": 1,
+                  "unit": null
+                },
+                {
+                  "name": "Salzgurken",
+                  "amount": 40,
+                  "unit": "g"
+                },
+                {
+                  "name": "Tomatenmark",
+                  "amount": 40,
+                  "unit": "g"
+                },
+                {
+                  "name": "passierte Tomaten",
+                  "amount": 100,
+                  "unit": "g"
+                }
+              ]
+            },
+            {
+              "title": "weitere Zutaten",
+              "list": [
+                {
+                  "name": "Rinder- oder Gemüsebrühe (oder Wasser)",
+                  "amount": 250,
+                  "unit": "ml"
+                },
+                {
+                  "name": "Salz",
+                  "amount": null,
+                  "unit": null
+                },
+                {
+                  "name": "Pfeffer",
+                  "amount": null,
+                  "unit": null
+                },
+                {
+                  "name": "Paprikapulver",
+                  "amount": null,
+                  "unit": null
+                },
+                {
+                  "name": "Chiliflocken",
+                  "amount": null,
+                  "unit": null
+                },
+                {
+                  "name": "Öl zum Anbraten",
+                  "amount": null,
+                  "unit": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "preparation": [
         {
           "step": 1,
-          "todo": "Beschreibung Schritt 1"
+          "todo": "Zunächst werden alle Fleischarten in einem hohen Topf in etwas Öl kurz scharf angebraten. Danach wird das Fleisch kurz zur Seite gelegt."
         },
         {
           "step": 2,
-          "todo": "Beschreibung Schritt 2"
+          "todo": "Im selben Topf werden nun die Zwiebeln und der Knoblach kurz angebraten. Jetzt die Paprika hinzugeben und ebenfalls kurz mit anbraten. danach kann das Fleisch wieder in den Topf gegeben werden."
         },
         {
           "step": 3,
-          "todo": "Beschreibung Schritt 3"
+          "todo": "Jetzt die Salzgurken, die passierten Tomaten und die Brühe hinzugeben. Mit Salz, Pfeffer, Paprikapulver, Chiliflocken und Gurkenwasser, Zitronensaft, Essig, Zucker und Tomatenmark abschmecken, dass das Gericht angenehm, nicht zu sauer oder zu scharf, ist."
+        },
+        {
+          "step": 4,
+          "todo": "Das Gericht muss jetzt ca. 2 Stunden leicht köcheln, damit sich die Zutaten ihren Geschmack entfalten können. Da in diesem Prozess das Gericht eingedickt wird, muss hin und wieder nachgeschmeckt werden."
         }
       ]
     },
@@ -103,18 +210,54 @@
       "name": "Schnitzel Wiener Art",
       "image": "../images/schnitzel-1732024_1280.jpg",
       "highlight": false,
+      "duration": "20 Minuten",
+      "description": "Dieses Gericht ist ein Klassiker der österreichischen Küche. Das Wiener Schnitzel wird traditionell mit Kalbfleisch zubereitet, während man für das Schnitzel Wiener Art andere Fleischarten verwenden kann: Am besten schmecken das Schnitzel Wiener Art mit Putenfleisch oder Schweinefleisch.\n Entscheidend bei der Zubereitung des Schnitzels ist eine knusprige aber luftige Panade, die entsteht, wenn das Schnitzel in der Pfanne mit aureichend Öl paniert wird.",
+      "ingredients": [
+        {
+          "subgroup": [
+            {
+              "title": null,
+              "list": [
+                {
+                  "name": "Putenschnitzel oder Schweineschnizel",
+                  "amount": 1,
+                  "unit": null
+                },
+                { "name": "Mehl", "amount": 2, "unit": "EL" },
+                { "name": "Ei", "amount": 1, "unit": null },
+                {
+                  "name": "Panade oder Semmelbrösel",
+                  "amount": 2,
+                  "unit": "EL"
+                },
+                {
+                  "name": "Öl zum Anbraten",
+                  "amount": null,
+                  "unit": "null"
+                },
+                { "name": "Salz", "amount": null, "unit": null },
+                { "name": "Pfeffer", "amount": null, "unit": null }
+              ]
+            }
+          ]
+        }
+      ],
       "preparation": [
         {
           "step": 1,
-          "todo": "Beschreibung Schritt 1"
+          "todo": "Zunächst muss das Fleisch flachgeklopft werden (entweder mit einem Fleischhammer oder mit dem Pfannenboden)"
         },
         {
           "step": 2,
-          "todo": "Beschreibung Schritt 2"
+          "todo": "Auf drei Tellern bereitet man sich eine 'Panierstation' vor: Auf dem ersten Teller wird das Mehl gegeben, im zweiten Teller müssen die Eier verquirrlt werden und der dritte Teller enthält das Paniermehl."
         },
         {
           "step": 3,
-          "todo": "Beschreibung Schritt 3"
+          "todo": "Das flache Schnitzel wird im ersten Teil von beiden Seiten mit Mehl bestäubt. Danach wird das mehlierte Schnitzel im zweiten Teller mit dem Ei bedeckt. Im dritten Teller wird das Schnitzel ohne groß Druck auszuüben in das Paniermehl gedrückt."
+        },
+        {
+          "step": 4,
+          "todo": "Das Schnitzel wird jetzt vorsichtig in das siedende Öl gelegt. Entscheidend ist, dass das Schnitzel knapp mit Öl bedeckt sein muss. Ist das Schnitzel goldgelb, wird es gewendet. Das Schnitzel ist fertig, wenn es von beiden Seiten goldgelb gefärbt ist."
         }
       ]
     },

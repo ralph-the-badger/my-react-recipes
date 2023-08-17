@@ -12,7 +12,7 @@ import RecipeIngredients from "../components/Content/RecipeIngredients";
 import RecipePreparation from "../components/Content/RecipePreparation";
 
 function Recipe({ recipes, isLoading, error }) {
-  const [personsAmount, setPersonsAmount] = useState(1);
+  const [personsAmount, setPersonsAmount] = useState(2);
 
   const { id } = useParams();
 

@@ -9,3 +9,7 @@
 .preparation ul {
   list-style-type: none;
 }
+
+.preparation li {
+  margin: 1rem 0;
+}

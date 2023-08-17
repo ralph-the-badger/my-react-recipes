@@ -1,3 +1,19 @@
 .recipeContent {
-  background-color: inherit;
+  margin: 0 auto 2rem auto;
+}
+
+.recipeContent h2 {
+  padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .recipeContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .recipeContent {
+    grid-template-columns: 1fr;
+  }
 }
