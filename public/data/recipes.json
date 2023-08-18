@@ -11,7 +11,7 @@
         {
           "subgroup": [
             {
-              "title": "Pesto",
+              "title": null,
               "list": [
                 {
                   "name": "getrocknete Tomaten (in Öl eingelegt)",
@@ -34,31 +34,6 @@
                 { "name": "Pfeffer", "amount": null, "unit": null },
                 { "name": "Basilikum", "amount": null, "unit": null }
               ]
-            },
-            {
-              "title": "Pesto 2",
-              "list": [
-                {
-                  "name": "2 getrocknete Tomaten (in Öl eingelegt)",
-                  "amount": 40,
-                  "unit": "g"
-                },
-                { "name": "2 Knoblauchzehe", "amount": 0.25, "unit": null },
-                { "name": "2 Pinienkerne", "amount": 15, "unit": "g" },
-                {
-                  "name": "2 Olivenöl (bzw. Öl der eingelegten Tomaten)",
-                  "amount": 20,
-                  "unit": "ml"
-                },
-                {
-                  "name": "2 Parmesan oder Grana Padano",
-                  "amount": 15,
-                  "unit": "g"
-                },
-                { "name": "2 Salz", "amount": null, "unit": null },
-                { "name": "2 Pfeffer", "amount": null, "unit": null },
-                { "name": "2 Basilikum", "amount": null, "unit": null }
-              ]
             }
           ]
         }
@@ -66,15 +41,7 @@
       "preparation": [
         {
           "step": 1,
-          "todo": "Beschreibung Schritt 1"
-        },
-        {
-          "step": 2,
-          "todo": "Beschreibung Schritt 2"
-        },
-        {
-          "step": 3,
-          "todo": "Beschreibung Schritt 3"
+          "todo": "Alle Zutaten werden zusammen mit einem Pürierstab oder in einem Standmixer zu einer cremigen Masse vermischt. Für die richtige Cremigkeit fügt man nach und nach etwas Olivenöl der Masse zu."
         }
       ]
     },
@@ -266,18 +233,70 @@
       "name": "Chicken Curry",
       "image": "../images/chicken-6183149_1920.jpg",
       "highlight": true,
+      "duration": "2 Stunden",
+      "description": "Dieses Gericht schmeckt fantastisch! Wichtig ist, dass das Gericht mit allen Gewürzen gut abgeschmeckt wird. Am besten isst man das Hühnchen Curry auf Reis.",
+      "ingredients": [
+        {
+          "subgroup": [
+            {
+              "title": null,
+              "list": [
+                {
+                  "name": "Hühnerbrust",
+                  "amount": 120,
+                  "unit": "g"
+                },
+                { "name": "Zwiebel", "amount": 0.5, "unit": null },
+                { "name": "Knoblauch", "amount": 0.5, "unit": null },
+                { "name": "Paprika (rot)", "amount": 1, "unit": null },
+                { "name": "Karotten", "amount": 1, "unit": null },
+                {
+                  "name": "Tomatenmark",
+                  "amount": 1.25,
+                  "unit": "EL"
+                },
+                {
+                  "name": "Geflügelfond, Gemüsebrühe, Kokosmilch oder Wasser",
+                  "amount": 100,
+                  "unit": "ml"
+                },
+                { "name": "Currypulver", "amount": 0.5, "unit": "EL" },
+                {
+                  "name": "Öl (zum Fleischanbraten)",
+                  "amount": null,
+                  "unit": null
+                },
+                { "name": "Salz", "amount": null, "unit": null },
+                { "name": "Pfeffer", "amount": null, "unit": null },
+                { "name": "Paprikapulver", "amount": null, "unit": null },
+                { "name": "Chiliflocken", "amount": null, "unit": null },
+                { "name": "Zitronensaft", "amount": null, "unit": null },
+                { "name": "Zucker oder Honig", "amount": null, "unit": null }
+              ]
+            }
+          ]
+        }
+      ],
       "preparation": [
         {
           "step": 1,
-          "todo": "Beschreibung Schritt 1"
+          "todo": "Zuerst werden alle Zutaten kleingeschnitten: Die Zwiebeln und der Knoblauch werden klein gewürfelt, die Paprika und die Karotte werden am besten in gleichgroße Würfel geschnitten (ca. 1 cm) und das Fleisch wird in mundgerechte Stücke geschnitten."
         },
         {
           "step": 2,
-          "todo": "Beschreibung Schritt 2"
+          "todo": "Das Fleisch wird dann mit etwas Öl goldbraun angebraten. Das Fleisch wird nach dem Braten aus der Pfanne genommen und zur Seite gestellt."
         },
         {
           "step": 3,
-          "todo": "Beschreibung Schritt 3"
+          "todo": "In der Pfanne werden zunächst die kleingeschnittenen Zwiebeln und Knoblauch angebraten. Danach wird das Gemüse zugegeben und ebenfalls etwas angebraten. Danach wird das Fleisch wieder dazugegeben."
+        },
+        {
+          "step": 4,
+          "todo": "Jetzt wird die Brühe (der Fond, die Kokosmilch oder Wasser), das Currypulver und Tomatenmark zugegeben. Mit Salz, Pfeffer, Chiliflocken, Paprikapulver, Zitronensaft, Zucker (oder Honig) abschmecken."
+        },
+        {
+          "step": 5,
+          "todo": "Das Gericht muss jetzt ca. 1 Stunden leicht köcheln, damit sich die Zutaten ihren Geschmack entfalten können. Da in diesem Prozess das Gericht eingedickt wird, muss hin und wieder nachgeschmeckt werden."
         }
       ]
     }
