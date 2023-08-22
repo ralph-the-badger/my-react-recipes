@@ -1,11 +1,17 @@
 import { useState, useEffect } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
 import RecipeOverview from "../components/Content/RecipeOverview";
 import RecipeContent from "../components/Content/RecipeContent";
+import Navigation from "../components/Content/Navigation";
+import Button from "../components/ui/Button/Button";
 
 function Home({ recipes, isLoading, error }) {
+  const navigate = useNavigate();
+
   const [filteredHighlights, setFilteredHighlights] = useState([]);
 
   useEffect(() => {
@@ -33,8 +39,13 @@ function Home({ recipes, isLoading, error }) {
               liebsten Gerichte an einer Stelle zusammen. Auch das Nachkochen
               macht Spaß!
             </p>
-            <p>Hier finden Sie eine Auswahl meiner absoluten Highlights:</p>
+            <Navigation>
+              <Button onClick={() => navigate("/rezepte")}>
+                Zur Rezept-Übersicht
+              </Button>
+            </Navigation>
             <h2>Highlights</h2>
+            <p>Hier finden Sie eine Auswahl meiner absoluten Highlights:</p>
           </RecipeContent>
           <RecipeOverview recipes={filteredHighlights} />
         </Content>

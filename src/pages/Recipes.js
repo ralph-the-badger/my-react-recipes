@@ -1,12 +1,18 @@
 import { useState, useEffect } from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import Header from "../components/Header/Header";
 import Search from "../components/Search/Search";
 import Content from "../components/Content/Content";
 import RecipeOverview from "../components/Content/RecipeOverview";
 import RecipeContent from "../components/Content/RecipeContent";
+import Navigation from "../components/Content/Navigation";
+import Button from "../components/ui/Button/Button";
 
 function Recipes({ recipes, isLoading, error }) {
+  const navigate = useNavigate();
+
   const [searchValue, setSearchValue] = useState("");
   const [shownRecipes, setShownRecipes] = useState([]);
 
@@ -38,6 +44,9 @@ function Recipes({ recipes, isLoading, error }) {
             )}
           </RecipeContent>
           <RecipeOverview recipes={shownRecipes} />
+          <Navigation>
+            <Button onClick={() => navigate("/")}>Zurück zur Startseite</Button>
+          </Navigation>
         </Content>
       )}
     </>

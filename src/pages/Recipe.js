@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 import Header from "../components/Header/Header";
 import Content from "../components/Content/Content";
@@ -10,8 +10,12 @@ import RecipePreparationTime from "../components/Content/RecipePreparationTime";
 import RecipeIngredientsCalculator from "../components/Content/RecipeIngredientsCalculator";
 import RecipeIngredients from "../components/Content/RecipeIngredients";
 import RecipePreparation from "../components/Content/RecipePreparation";
+import Navigation from "../components/Content/Navigation";
+import Button from "../components/ui/Button/Button";
 
 function Recipe({ recipes, isLoading, error }) {
+  const navigate = useNavigate();
+
   const [personsAmount, setPersonsAmount] = useState(2);
 
   const { id } = useParams();
@@ -50,6 +54,12 @@ function Recipe({ recipes, isLoading, error }) {
             />
             <RecipePreparation preparation={recipe.preparation} />
           </RecipeContent>
+          <Navigation>
+            <Button onClick={() => navigate("/")}>Zur Startseite</Button>
+            <Button onClick={() => navigate("/rezepte")}>
+              Zur Rezept-Übersicht
+            </Button>
+          </Navigation>
         </Content>
       )}
     </>

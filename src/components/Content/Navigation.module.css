@@ -1,0 +1,11 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.navigation button {
+  width: 250px;
+}
